@@ -1,10 +1,10 @@
 /* Make the body a vertical flex container */
-body {
+/* body {
   display: flex;
   flex-direction: column;
   height: 100vh; /* Full height of viewport */
-  margin: 0;
-}
+  /*margin: 0;
+} 
 
 /* Make the main a horizontal flex container */
 main {
@@ -36,4 +36,51 @@ footer {
   color: white;
   padding: 1em;
   text-align: center;
+}
+
+
+body {
+  background-color: #f0f8ff;
+  color: #333;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+header, footer {
+  background-color: #2c3e50;
+  color: white;
+  border-bottom: 5px solid #2980b9;
+}
+
+a {
+  color: #2980b9;
+}
+a:hover {
+  color: #1abc9c;
+}
+
+article {
+  background: white;
+  padding: 1.5em;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+aside {
+  background: #ecf0f1;
+  padding: 1.5em;
+  border-left: 3px solid #bdc3c7;
+}
+
+article h2 {
+  color: #e74c3c;
+}
+
+article p {
+  line-height: 1.6;
+  margin-bottom: 1em;
+}
+
+.logo {
+  font-size: 2em;
+  margin-right: 10px;
 }
