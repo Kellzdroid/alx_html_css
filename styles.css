@@ -199,3 +199,27 @@ section:nth-of-type(4) h2 {
 .membership-item {
   max-width: 200px;
 }
+
+/* FAQ */
+
+section:nth-of-type(5) {
+  background: white;
+  color: #333;
+  padding: 60px 30px;
+}
+
+section:nth-of-type(5) h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.faq-columns {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.faq-block {
+  flex: 1 1 40%;
+}
