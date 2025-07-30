@@ -223,3 +223,27 @@ section:nth-of-type(5) h2 {
 .faq-block {
   flex: 1 1 40%;
 }
+
+/* Footer */
+
+footer {
+  background: #12172B;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+footer img {
+  height: 40px;
+}
+
+footer .socials {
+  margin-top: 20px;
+  font-size: 1.5rem;
+}
+
+footer p {
+  font-size: 0.8rem;
+  margin-top: 20px;
+  color: #999;
+}
