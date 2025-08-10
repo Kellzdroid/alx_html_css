@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  /* background-image: url('images/headphones_hero_1.jpg');*/
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.hero {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('images/headphones_hero_1.jpg') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 10px 70px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  font-size: 0.9rem;
+  text-transform: lowercase;
+}
+
+.hero-content h1 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+}
+
+.cta-btn {
+  display: inline-block;
+  background-color: #f85757;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 0.85rem;
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+/* What we do */
+.what-we-do {
+  padding: 60px 20px;
+  text-align: center;
+  background: #fff;
+}
+
+.section-description {
+  font-size: 0.9rem;
+  margin: 10px auto 30px;
+  max-width: 600px;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.feature {
+  max-width: 150px;
+}
+
+.icon {
+  font-size: 2rem;
+  color: #f85757;
+  margin-bottom: 10px;
+}
+
+.feature h3 {
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+
+/* Results section */
+.results {
+  padding: 60px 20px;
+  text-align: center;
+  color: white;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.044), rgba(0, 0, 0, 0.044)), url('images/headphones_hero_2.jpg') no-repeat center center/cover;
+}
+
+
+.metrics {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.metric {
+  color: white;
+  font-size: 1.5rem;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Contact section */
+.contact {
+  padding: 60px 20px;
+  text-align: center;
+  background: #fff;
+}
+
+.contact form {
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact input, .contact textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.button {
+  display: inline-block;
+  background-color: #f85757;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
